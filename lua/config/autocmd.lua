@@ -6,9 +6,3 @@ api.nvim_create_autocmd({ "TermOpen" }, {
   pattern = { "term://*" },
   command = "startinsert",
 })
--- terminal line number
-api.nvim_create_autocmd({ "TermOpen" }, {
-  group = augroup,
-  pattern = { "term://*" },
-  command = "nonumber",
-})
