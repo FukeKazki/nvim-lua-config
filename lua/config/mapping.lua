@@ -9,6 +9,8 @@ h.nmap("<leader>e", "<Cmd>NeoTreeFocus<CR>")
 h.nmap("<leader>w", "<Cmd>w<CR>")
 -- space-q close file
 h.nmap("<leader>q", "<Cmd>q<CR>")
+-- jj is espace
+h.imap("jj", "<ESC>")
 
-
+h.nmap("<leader>b", "<Cmd>new<CR>")
 
