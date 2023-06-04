@@ -16,3 +16,5 @@ h.nmap("<leader>b", "<Cmd>new<CR>")
 -- terminal
 h.nmap("<leader>t", "<Cmd>belowright new<CR><Cmd>terminal<CR>")
 h.tmap("<ESC>", "<C-\\><C-n>")
+
+

@@ -16,3 +16,5 @@ lazy.nvimで管理しているプラグインの設定ファイル。
 ### neo-tree
 サイドバーのファイルツリー。
 
+### copilot
+GitHub copilotを使う。
