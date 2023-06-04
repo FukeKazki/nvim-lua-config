@@ -1,12 +1,21 @@
 # 構成
 ```mermaid
 graph TD;
-init.lua --> config/autocmd.lua
-init.lua --> config/mapping.lua
-init.lua --> config/options.lua
+init.lua --> config
+
+config --> autocmd.lua
+config --> mapping.lua
+config --> options.lua
 
 init.lua --> lazy.nvim
-lazy.nvim --> plugins/
+
+lazy.nvim --> plugins
+
+plugins --> copilot.lua
+plugins --> lualine.lua
+plugins --> neo-tree.lua
+plugins --> telescope.lua
+plugins --> tokyonight.lua
 ```
 
 ## init.lua
