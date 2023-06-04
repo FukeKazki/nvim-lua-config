@@ -11,6 +11,8 @@ h.nmap("<leader>w", "<Cmd>w<CR>")
 h.nmap("<leader>q", "<Cmd>q<CR>")
 -- jj is espace
 h.imap("jj", "<ESC>")
-
+-- new buffer
 h.nmap("<leader>b", "<Cmd>new<CR>")
-
+-- terminal
+h.nmap("<leader>t", "<Cmd>belowright new<CR><Cmd>terminal<CR>")
+h.tmap("<ESC>", "<C-\\><C-n>")

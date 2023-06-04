@@ -2,6 +2,8 @@
 require("config.options")
 -- mapping
 require("config.mapping")
+-- autocmd
+require("config.autocmd")
 
 -- lazy nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
