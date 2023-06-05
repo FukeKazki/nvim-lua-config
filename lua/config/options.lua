@@ -49,4 +49,3 @@ opt.incsearch = true
 
 -- ヒストリの上限
 opt.history = 512
-

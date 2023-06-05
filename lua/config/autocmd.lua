@@ -6,3 +6,9 @@ api.nvim_create_autocmd({ "TermOpen" }, {
   pattern = { "term://*" },
   command = "startinsert",
 })
+-- format on save
+api.nvim_create_autocmd({ "BufWritePre" }, {
+  group = augroup,
+  pattern = { "*.lua" },
+  command = "lua vim.lsp.buf.format()",
+})

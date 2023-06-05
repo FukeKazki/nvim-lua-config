@@ -1,4 +1,4 @@
-local h = require("utils.helper")
+local h = require "utils.helper"
 
 -- space leader
 vim.g.mapleader = " "
