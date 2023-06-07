@@ -16,6 +16,7 @@ plugins --> lualine.lua
 plugins --> neo-tree.lua
 plugins --> telescope.lua
 plugins --> tokyonight.lua
+plugins --> mason-null-ls.lua
 ```
 
 ## init.lua
